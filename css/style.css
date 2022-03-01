@@ -184,3 +184,57 @@ p {
 .bar:hover {
   color: orange;
 }
+
+/* Media queries  */
+
+@media only screen and (max-width: 1470px) {
+  .header {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 879px) {
+  .header {
+    font-size: 20px;
+  }
+  .img-container h2 {
+    font-size: 20px;
+  }
+
+  .btns:after {
+    content: "";
+  }
+}
+@media only screen and (max-width: 586px) {
+  .header {
+    font-size: 15px;
+  }
+  .img-container h2 {
+    font-size: 15px;
+  }
+  .img-container {
+    margin-left: 150px;
+  }
+  .img {
+    width: 120%;
+  }
+
+  .btns {
+    left: 65%;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    position: relative;
+  }
+  .btns:after {
+    content: "";
+  }
+}
+@media only screen and (max-width: 440px) {
+  .header {
+    font-size: 10px;
+  }
+  .img-container h2 {
+    font-size: 10px;
+  }
+}
